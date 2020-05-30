@@ -1,0 +1,123 @@
+<!--ACOUNT DETAILS-->
+<div class="modal white-text" id="modal-account">
+  <div class="modal-content">
+    <h4>Account Details</h4>
+    <h6>"ACCOUNT INFO"</h6>
+  </div>
+</div>
+
+<!--NEW PATIENT MODAL-->
+<div id="modal-newPatient" class="modal white-text">
+  <div class="modal-content">
+    <h4>New Patient Details</h4><br>
+    <form class="create-form">
+      <div class="input-field">
+        <input type="text" id="patient-name" required />
+        <label for="patient-name">Name</label>
+      </div>
+      <div class="input-field">
+        <input type="text" id="patient-dob" required />
+        <label for="patient-dob">DOB</label>
+      </div>
+      <div class="input-field">
+        <textarea id="patient-address" class="materialize-textarea"></textarea>
+        <label for="patient-address">Address</label>
+      </div>
+      <button class="btn waves-effect waves-light z-depth-0 black-text" id="button">Create</button>
+      <p class="error red-text center-align"></p>
+    </form>
+  </div>
+</div>
+
+<!--LOGIN MODAL-->
+<div id="modal-login" class="modal white-text">
+  <div class="modal-content">
+    <h4 style="margin-below: none;">Login</h4>
+    <ul class="collapsible modal-content z-depth-0">
+      <li>
+        <div class="collapsible-header">Admin Login</div>
+        <div class="collapsible-body">
+          <form class="login-form">
+            <div class="input-field">
+              <input type="email" id="admin-email" required/>
+              <label for="admin-email">Email</label>
+            </div>
+            <div class="input-field">
+              <input type="password" id="admin-password" required/>
+              <label for="admin-password">Password</label>
+            </div>
+            <button class="btn waves-effect waves-light z-depth-0 black-text" id="button">Login</button>
+            <p class="error red-text center-align"></p>
+          </form>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header">Doctor login</div>
+        <div class="collapsible-body">
+          <form class="login-form">
+            <div class="input-field">
+              <input type="email" id="doctor-email" required/>
+              <label for="doctor-email">Email</label>
+            </div>
+            <div class="input-field">
+              <input type="password" id="doctor-password" required/>
+              <label for="doctor-password">Password</label>
+            </div>
+            <button class="btn waves-effect waves-light z-depth-0 black-text" id="button">Login</button>
+            <p class="error red-text center-align"></p>
+          </form>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header">User Login</div>
+        <div class="collapsible-body">
+          <form class="login-form">
+            <div class="input-field">
+              <input type="email" id="user-email" required/>
+              <label for="user-email">Email</label>
+            </div>
+            <div class="input-field">
+              <input type="password" id="user-password" required/>
+              <label for="user-password">Password</label>
+            </div>
+            <button class="btn waves-effect waves-light z-depth-0 black-text" id="button">Login</button>
+            <p class="error red-text center-align"></p>
+          </form>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!--NEW DOCTOR MODAL-->
+<div class="modal white-text" id="modal-newDoctor">
+  <div class="modal-content">
+    <h4>New Doctor Details</h4>
+    <form class="create-form">
+      <div class="input-field">
+        <input type="email" id="newDoctor-email">
+        <label for="newDoctor-email">Email</label>
+      </div>
+      <div class="input-field">
+        <input type="text" id="newDoctor-dob">
+        <label for="newDoctor-dob">DOB</label>
+      </div>
+      <div class="input-field">
+        <input type="text" id="newDoctor-qualification">
+        <label for="newDoctor-qualification">Qualifications</label>
+      </div>
+      <div class="input-field">
+        <input type="password" id="newDoctor-password">
+        <label for="newDoctor-password">Create Password</label>
+      </div>
+      <button class="btn waves-effect waves-light z-depth-0 black-text" id="button">Create</button>
+      <p class="error red-text center-align"></p>
+    </form>
+  </div>
+</div>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="./scripts/index.js"></script>
+</body>
+</html>

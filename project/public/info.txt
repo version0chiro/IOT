@@ -1,0 +1,6 @@
+pages{
+1:login & registration(doctors)
+2:patient details fill
+3:patient details display
+4:exclusive data for particular patient
+}

@@ -1,0 +1,34 @@
+body{
+  background-color: #121212;
+  color: white;
+  text-align: center;
+}
+
+nav{
+  background-color: #FD9A24;
+}
+
+div.modal{
+  background-color: #121212;
+}
+
+#button{
+  background-color: #FBB124;
+}
+
+input, textarea{
+  color: white;
+}
+
+.collapsible, .collapsible-header, .collapsible-header:focus{
+  background-color: #121212;
+  border: none;
+}
+
+.modal-content{
+  text-align: center;
+}
+
+.table{
+  color: white;
+}

@@ -1,0 +1,12 @@
+<%- include("partials/header") -%>
+<p>Enter your details for registering as an admin</p>
+<form action="/register" method="POST" class="center-align admin-actions admin" style="margin: 40px auto; max-width: 300px;">
+  <input  type="email" name="email" placeholder="User Email" id="admin-email" required/>
+  <input type="password" name="password" value="" placeholder="Password" />
+  <button class="btn-small waves-effect waves-light z-depth-0 black-text" id="button" type="submit">Make Admin</button>
+</form>
+<p>Want to login instead? click here =>:<a href="/login">Login page</a></p>
+
+<h1 class="center-align white-text lighten-3">HOSPITAL DETAILS test</h1>
+
+<%- include("partials/footer") -%>
